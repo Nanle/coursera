@@ -16,10 +16,10 @@
 			}
 		},
 		{
-			"file": "/C/Users/hp/Documents/website/index.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 134,
+				"buffer_size": 170,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -130,19 +130,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/hp/Documents/website/index.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 134,
+						"buffer_size": 170,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								158,
+								158
 							]
 						],
 						"settings":
