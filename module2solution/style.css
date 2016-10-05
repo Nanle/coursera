@@ -1,0 +1,36 @@
+<style type="text/css">
+	* {box-sizing: border-box;}
+	body {margin: 0px; padding: 10px; background-color: green; display: block;}
+	div {float: left; position: relative;margin: 0px; padding: 10px;
+
+	}
+	#Chicken, #beef, #sushi {background-color: gray; padding: 10px; margin: 10px; width: 300px;  border-style: solid; border-color: black; font-family:bodoni MT, times new romans; }
+	header {text-align: center; font-size: 1.5em; font-weight: bold; font-family: bodoni MT, times new romans}
+	#h1, #h2, #h3 {
+border-style: solid;
+border-width: 1px;
+border-left-width: 1px;
+border-right-width: 1px;
+border-color: black;
+text-align: right; padding: 0; font-size: 1.5em; margin: 10px; padding: 0px; position: absolute;top: -10px; right: -10px;
+font-family: bodoni MT, times new romans; 
+}
+#h1 {background-color: 708912; }
+#h2 {background-color: 306640; }
+#h3 { background-color: 903012; color: white; }
+
+/********** Large Devices only **********/
+@media (min-width: 992px) {#CHICKEN, #BEEF, #SUSHI {width: 28%;
+
+	}
+}
+/********** Medium Devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#CHICKEN {width: 40%;}
+	#BEEF {width: 40%;}
+	#SUSHI {width: 85%;}
+}
+/********** Small Devices only **********/
+@media (max-width: 767px) {#CHICKEN, #BEEF, #SUSHI{width: 90%;}
+}
+</style>
